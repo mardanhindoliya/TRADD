@@ -1,0 +1,27 @@
+project:
+  name: TRADD
+  description: Temporal Reliability-Aware Deepfake Detection
+
+dataset:
+  name: FaceForensics++
+  image_size: 224
+  batch_size: 32
+  num_workers: 2
+
+model:
+  architecture: mobilenet_v3_small
+  num_classes: 2
+  pretrained: true
+
+training:
+  epochs: 10
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+
+temporal:
+  window_size: 30
+  fake_threshold: 0.70
+  uncertainty_threshold: 0.30
+
+device:
+  use_cuda: true

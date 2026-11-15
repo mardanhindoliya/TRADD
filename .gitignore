@@ -1,0 +1,13 @@
+datasets/
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.pth
+*.pt
+*.onnx
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+*.key

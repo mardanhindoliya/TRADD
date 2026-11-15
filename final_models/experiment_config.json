@@ -1,0 +1,13 @@
+{
+    "project": "TRADD",
+    "dataset": "FaceForensics++ c23",
+    "videos": 500,
+    "frames_per_video": 10,
+    "feature_dimension": 704,
+    "temporal_model": "GRU",
+    "gru_hidden_size": 128,
+    "real_threshold": 0.0028518899343907833,
+    "fake_threshold": 0.9983019828796387,
+    "test_coverage": 0.75,
+    "selective_accuracy": 0.9067
+}

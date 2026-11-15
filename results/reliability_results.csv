@@ -1,0 +1,2 @@
+REAL_threshold,FAKE_threshold,Coverage,Selective_accuracy,Uncertain_videos
+0.00285189,0.998302,0.75,0.9067,25

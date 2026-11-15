@@ -1,0 +1,4 @@
+Model,Validation_AUC,Test_AUC
+RGB-only,0.8294,0.820625
+RGB + DCT,0.8038,0.830625
+RGB + DCT + GRU,0.8044,0.8225
